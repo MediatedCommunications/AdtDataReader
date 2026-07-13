@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/AdtDataReader.Tests/AdtDataReader.Tests.csproj" Id="212c8605-0878-41a3-8b76-5a04fe4350ba" />
+  <Project Path="src/AdtDataReader/AdtDataReader.csproj" />
+</Solution>
