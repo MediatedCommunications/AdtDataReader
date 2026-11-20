@@ -4,7 +4,7 @@
 		<Description>AdtDataReader is a small fast .Net Core library for reading Sybase Advantage ADT database files</Description>
 		<Copyright>Copyright Chris Richards &amp; Tony Valenti</Copyright>
 		<Authors>Chris Richards &amp; Tony Valenti</Authors>
-		<TargetFrameworks>net10.0;</TargetFrameworks>
+		<TargetFrameworks>net11.0;</TargetFrameworks>
 		<AssemblyName>AdtDataReader</AssemblyName>
 		<PackageId>AdtDataReader</PackageId>
 		<PackageTags>adt;adm;Sybase;Advantage</PackageTags>
@@ -27,13 +27,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.403" PrivateAssets="All" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="11.0.100" PrivateAssets="All" />
 		<PackageReference Include="MinVer" Version="8.0.0" PrivateAssets="All" />
 	</ItemGroup>
 
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
-		<PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.15" />
+		<PackageReference Include="System.Text.Encoding.CodePages" Version="11.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
